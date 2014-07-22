@@ -1,0 +1,18 @@
+<rdf:RDF
+    xmlns:panda="http://www.mi.fu-berlin.de/panda#"
+    xmlns:log="http://www.w3.org/2000/10/swap/log#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
+	<panda:Metadata rdf:about="http://www.mi.fu-berlin.de/panda#/Data/TestData/BlockB/10">
+		<panda:Uri>/Data/TestData/BlockB/10</panda:Uri>
+		<!-- Temporal Scope -->
+		<panda:ExpirationDate>11.01.2014 22:00:54.987</panda:ExpirationDate>
+		<!-- Administrative Scope -->
+		<panda:License rdf:resource="http://www.fuberlin.de/panda/licenses/ODbL"/>
+		<!-- Areal Scope -->
+		<panda:Location>TU Muenchen</panda:Location>
+		<!-- Type -->
+		<panda:Format>char</panda:Format>
+		<panda:Language>french</panda:Language>
+	</panda:Metadata>
+</rdf:RDF>

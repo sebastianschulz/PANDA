@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:panda="http://www.mi.fu-berlin.de/panda#">
+  
+  <panda:Metadata>
+  	<panda:Data rdf:about="/Data/TestData/2" />
+  	
+  	<!-- Operational Metadata -->
+  	<panda:Creation>20.08.2013 12:30:45.864</panda:Creation>
+	<panda:Access>20.08.2013 12:45:12.123</panda:Access>
+  	
+  	<!-- Type -->
+  	<panda:Language>German</panda:Language>
+  	<panda:Format>xs:string</panda:Format>
+  	
+  	<!-- Semantic -->
+  	<cd:artist xmlns:cd="http://www.recshop.fake/cd#">Christoph Schroeder</cd:artist>
+  	<cd:country xmlns:cd="http://www.recshop.fake/cd#">Germany</cd:country> 
+  	
+  </panda:Metadata>
+</rdf:RDF>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PANDA>
+	<BaseURI>/Data/TestData/</BaseURI>
+	<value type="xs:integer" subURI="1">10</value>
+	<value type="xs:string" subURI="2">TestString</value>
+	<value type="xs:int" subURI="3">5</value>
+</PANDA>

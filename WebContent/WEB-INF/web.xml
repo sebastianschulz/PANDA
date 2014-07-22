@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>PANDA</display-name>
+  
+  <servlet>
+    <servlet-name>Jersey REST Service</servlet-name>
+    <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+    <init-param>
+      <param-name>com.sun.jersey.config.property.packages</param-name>
+      <param-value>de.fuberlin.panda.api.jersey</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jersey REST Service</servlet-name>
+    <url-pattern>/rest/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>MetadataForm</servlet-name>
+    <jsp-file>/jsp/MetadataForm.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MetadataForm</servlet-name>
+    <url-pattern>/rest/Metadata</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>MetadataRequest</display-name>
+    <servlet-name>MetadataRequest</servlet-name>
+    <servlet-class>de.fuberlin.panda.api.metadata.MetadataRequest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MetadataRequest</servlet-name>
+    <url-pattern>/rest/MetadataRequest</url-pattern>
+  </servlet-mapping>
+  
+</web-app> 

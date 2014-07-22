@@ -1,0 +1,9 @@
+<rdf:RDF
+    xmlns:panda="http://www.mi.fu-berlin.de/panda#"
+    xmlns:log="http://www.w3.org/2000/10/swap/log#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
+	<panda:Metadata rdf:about="http://www.mi.fu-berlin.de/panda#/Data/TestData/BlockC/h">
+		<panda:Uri>/Data/TestData/BlockC/h</panda:Uri>
+	</panda:Metadata>
+</rdf:RDF>

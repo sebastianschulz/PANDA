@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:panda="http://www.mi.fu-berlin.de/panda#">
+  
+  <panda:Metadata>
+  	<panda:Data rdf:about="/Data/TestData/1" />
+  	
+  	<!-- Operational Metadata -->
+  	<panda:Creation>11.06.2013 17:43:45.386</panda:Creation>
+	<panda:Access>11.06.2013 17:45:12.012</panda:Access>
+  	<panda:Access>11.06.2013 18:03:56.001</panda:Access>
+  	<panda:Access>11.06.2013 18:37:34.743</panda:Access>
+  	<panda:Deleting>11.06.2013 19:25:55.873</panda:Deleting>
+  	
+  	<!-- Administrative Scope -->
+  	<panda:Duties rdf:resource="http://www.fuberlin.de/panda/uri/to/duties/for/Value"/>
+  	<panda:License rdf:resource="http://www.fuberlin.de/panda/uri/to/license/for/Value"/>
+  	
+  	<!-- Areal Scope -->
+  	<panda:Longitude>13 25 E</panda:Longitude>
+	<panda:Latitude>52 30 N</panda:Latitude>
+  	<panda:Location>Berlin</panda:Location>
+  	
+  	<!-- Temporal Scope -->
+  	<panda:ExpirationDate>11.06.2013 19:25:55.276</panda:ExpirationDate>
+  	
+  	<!-- Type -->
+  	<panda:Format>xs:integer</panda:Format>
+  	
+  </panda:Metadata>
+</rdf:RDF>

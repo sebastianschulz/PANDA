@@ -1,0 +1,16 @@
+<rdf:RDF
+    xmlns:panda="http://www.mi.fu-berlin.de/panda#"
+    xmlns:log="http://www.w3.org/2000/10/swap/log#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
+	<panda:Metadata rdf:about="http://www.mi.fu-berlin.de/panda#/Data/TestData/BlockB/6">
+		<panda:Uri>/Data/TestData/BlockB/6</panda:Uri>
+		<!-- Temporal Scope -->
+		<panda:ExpirationDate>12.01.2014 14:23:83.469</panda:ExpirationDate>
+		<!-- Areal Scope -->
+		<panda:Location>Siegener Strasse 37a Berlin</panda:Location>
+		<!-- Type -->
+		<panda:Format>string</panda:Format>
+		<panda:Language>german</panda:Language>
+	</panda:Metadata>
+</rdf:RDF>

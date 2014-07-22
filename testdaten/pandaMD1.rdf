@@ -1,0 +1,20 @@
+<rdf:RDF
+    xmlns:panda="http://www.mi.fu-berlin.de/panda#"
+    xmlns:log="http://www.w3.org/2000/10/swap/log#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
+	<panda:Metadata rdf:about="http://www.mi.fu-berlin.de/panda#/Data/TestData/1">
+		<panda:Uri>/Data/TestData/1</panda:Uri>
+		<!-- Temporal Scope -->
+		<panda:ExpirationDate>11.06.2013 19:25:55.276</panda:ExpirationDate>
+		<!-- Areal Scope -->
+		<panda:Longitude>13.3142924</panda:Longitude>
+		<panda:Latitude>52.5259087</panda:Latitude>
+		<panda:Location>Berlin</panda:Location>
+		<!-- Administrative Scope -->
+		<panda:License rdf:resource="http://www.fuberlin.de/panda/licenses/PDDL"/>
+		<!-- Type -->
+		<panda:Format>int</panda:Format>
+		<panda:Language>Java</panda:Language>
+	</panda:Metadata>
+</rdf:RDF>
